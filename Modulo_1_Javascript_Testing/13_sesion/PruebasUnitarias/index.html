@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas Unitarias</title>
+</head>
+<body>
+    <h1>Pruebas Unitarias</h1>
+    <script>
+        function esCorreoValido(email) {
+            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+            return regex.test(email);
+        }
+
+        console.log(esCorreoValido("vzaldivarg@megacable.com.mx"));
+        console.log(esCorreoValido("vigazago@hotmail.com"));
+        console.log(esCorreoValido(""));
+    </script>    
+</body>
+</html>
