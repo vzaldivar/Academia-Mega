@@ -1,6 +1,6 @@
 function expect(actual) {
     return {
-        todo(expected) {
+        toBe(expected) {
             if(actual === expected) {
                 console.log(`Pasó: ${actual} === ${expected}`);
             } else {
@@ -22,5 +22,17 @@ function sumar(a,b) {
     return a + b;
 }
 
-expect(sumar(2,3).todo(5));
-expect(sumar(10,0).todo(10));
+function validarUsuario(usuario) {
+    return usuario.nombre && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(usuario.correo);
+}
+
+const usuarioValido = {nombre: "Victor", correo: "vigazago@hotmail.com"}
+const usuarioInvalido = {nombre: "Gabriel", correo: "vigazago@hotmail.com"}
+
+expect(sumar(2,3)).toBe(5);
+expect(sumar(10,0)).toBe(10);
+
+expect(validarUsuario(usuarioValido)).toBe(true);
+expect(validarUsuario(usuarioInvalido)).toBe(true);
+
+expect(validarUsuario(usuarioInvalido)).toEqual(usuarioInvalido);
