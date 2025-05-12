@@ -1,0 +1,19 @@
+{
+  "name": "academia-mega",
+  "version": "1.0.0",
+  "description": "Este repositorio contiene todos los materiales, ejercicios y proyectos desarrollados durante el curso de Desarrollo Web Full Stack. El curso está estructurado en 4 módulos principales, cubriendo JavaScript, Angular, ASP.NET/C# y Kubernetes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vzaldivar/Academia-Mega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vzaldivar/Academia-Mega/issues"
+  },
+  "homepage": "https://github.com/vzaldivar/Academia-Mega#readme"
+}
