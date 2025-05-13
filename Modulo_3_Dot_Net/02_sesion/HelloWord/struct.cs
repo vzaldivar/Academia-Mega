@@ -1,3 +1,5 @@
+using System;
+
 public struct Punto
 {
     public int x;
