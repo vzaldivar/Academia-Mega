@@ -1,0 +1,29 @@
+<div class="titulo">
+  <h1>Rutas: Curso de Angular</h1>
+</div>
+
+<hr>
+
+<nav class="navbar navbar-a-hover navbara-active">
+  <a routerLink="/" routerLinkActive="[active]">Usuarios</a>
+  <a routerLink="/product-list" routerLinkActive="[active]">ProductList</a>
+  <a routerLink="/formulario" routerLinkActive="[active]">Formulario</a>
+  <a routerLink="/servicios" routerLinkActive="[active]">Servicios</a>
+  <a routerLink="/productos" routerLinkActive="[active]">Productos</a>
+  <a routerLink="/home" routerLinkActive="[active]">Home</a>
+  <a routerLink="/card" routerLinkActive="[active]">Card</a>
+  <a routerLink="/todo" routerLinkActive="[active]">ToDo</a>
+  <a routerLink="/gestor" routerLinkActive="[active]">Gestor</a>
+  <a routerLink="error" routerLinkActive="[active]">Error</a>
+</nav>
+
+<hr>
+
+<p>Estoy en APPComponent</p>
+<div>
+  <p>{{nombre | uppercase}}</p>
+  <p>{{fechaNacimiento | edad}}</p>
+  <p>{{salario | currency:"EUR"}}</p>
+</div>
+
+<router-outlet><router-outlet/>

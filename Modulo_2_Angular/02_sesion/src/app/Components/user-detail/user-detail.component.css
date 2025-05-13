@@ -1,0 +1,18 @@
+.detail{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.card{
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.container{
+    display: flex;
+    gap:20px
+}
