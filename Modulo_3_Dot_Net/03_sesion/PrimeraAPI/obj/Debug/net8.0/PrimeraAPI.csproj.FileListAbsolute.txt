@@ -1,11 +1,3 @@
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.csproj.AssemblyReference.cache
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.AssemblyInfoInputs.cache
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.AssemblyInfo.cs
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.csproj.CoreCompileInputs.cache
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.sourcelink.json
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\bin\Debug\net8.0\appsettings.json
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\bin\Debug\net8.0\PrimeraAPI.exe
@@ -36,6 +28,14 @@ C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\bin\Debug\net8.0\Mi
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.csproj.AssemblyReference.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.AssemblyInfoInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.AssemblyInfo.cs
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.csproj.CoreCompileInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.sourcelink.json
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net8.0\staticwebassets\msbuild.PrimeraAPI.Microsoft.AspNetCore.StaticWebAssets.props
