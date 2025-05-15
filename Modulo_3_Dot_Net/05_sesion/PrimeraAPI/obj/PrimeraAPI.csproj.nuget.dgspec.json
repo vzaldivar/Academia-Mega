@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\04_sesion\\PrimeraAPI\\PrimeraAPI.csproj": {}
+    "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\05_sesion\\PrimeraAPI\\PrimeraAPI.csproj": {}
   },
   "projects": {
-    "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\04_sesion\\PrimeraAPI\\PrimeraAPI.csproj": {
+    "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\05_sesion\\PrimeraAPI\\PrimeraAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\04_sesion\\PrimeraAPI\\PrimeraAPI.csproj",
+        "projectUniqueName": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\05_sesion\\PrimeraAPI\\PrimeraAPI.csproj",
         "projectName": "PrimeraAPI",
-        "projectPath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\04_sesion\\PrimeraAPI\\PrimeraAPI.csproj",
+        "projectPath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\05_sesion\\PrimeraAPI\\PrimeraAPI.csproj",
         "packagesPath": "C:\\Users\\vzaldivarg\\.nuget\\packages\\",
-        "outputPath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\04_sesion\\PrimeraAPI\\obj\\",
+        "outputPath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\05_sesion\\PrimeraAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
