@@ -1,0 +1,8 @@
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net7.0\PrimeraAPI.csproj.AssemblyReference.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net7.0\PrimeraAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net7.0\PrimeraAPI.AssemblyInfoInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net7.0\PrimeraAPI.AssemblyInfo.cs
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net7.0\PrimeraAPI.csproj.CoreCompileInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net7.0\PrimeraAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net7.0\PrimeraAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net7.0\PrimeraAPI.sourcelink.json
