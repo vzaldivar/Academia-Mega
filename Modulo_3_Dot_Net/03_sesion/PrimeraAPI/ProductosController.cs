@@ -1,12 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq; 
-//using Asp.Versioning;
+using Asp.Versioning;
 
 [ApiController]
-//[ApiVersion("1.0")]
-//[Route("api/v{version:apiVersion}[controller]")] // api/productos
-[Route("api/[controller]")] // api/productos
+[ApiVersion("1.0")]
+[Route("api/v{version:apiVersion}[controller]")] // api/productos
 
 public class ProductosController : ControllerBase
 {
