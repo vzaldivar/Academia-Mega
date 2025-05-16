@@ -1,79 +1,75 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq; 
-//using Asp.Versioning;
+using ProductoService.Models;
+using PrimeraAPI.Data;
 
-[ApiController]
-//[ApiVersion("1.0")]
-//[Route("api/v{version:apiVersion}[controller]")] // api/productos
-[Route("api/[controller]")] // api/productos
-
-public class ProductosController : ControllerBase
+namespace PrimeraAPI.Controllers
 {
-    // Aqui seria la lectura de datos en BD
-    public static readonly List<Producto> _datos = new()
-    {
-        new Producto { id = 1, Nombre = "iPhone 16", Precio = 20000.0m },
-        new Producto { id = 2, Nombre = "Galaxy S25 Edge", Precio = 20000.0m }
-    };
+    [ApiController]
+    //[ApiVersion("1.0")]
+    //[Route("api/v{version:apiVersion}[controller]")] // api/productos
+    [Route("api/[controller]")] // api/productos
 
-    // - CREATE -
-    [HttpPost] // POST /api/productos
-    public ActionResult<Producto> Create(Producto nuevo)
+    public class ProductosController : ControllerBase
     {
-        nuevo.id = _datos.Max(p => p.id) + 1;
-        _datos.Add(nuevo);
-        return CreatedAtAction(nameof(GetById), new {id = nuevo.id}, nuevo);
+        // Aqui seria la lectura de datos en BD
+        private readonly ProductoService _service;
+
+        public ProductosController(ProductoService service)
+        {
+            _service = service;
+        }
+
+        // - CREATE -
+        [HttpPost] // POST /api/productos
+        public ActionResult<Producto> Create(Producto nuevo)
+        {
+            return NoContent();
+        }
+
+        // - READ - 
+        [HttpGet] // api/productos
+        public async Task<ActionResult> GetAll()
+        {
+            var lista = await _service.GetAllAsync();
+
+            return Ok(lista);
+        }
+
+        [HttpGet("{id}")] // GET /api/productos/1
+        public ActionResult<Producto> GetById(int id)
+        {
+            var product = _datos.FirstOrDefault(p => p.id == id);
+            if (product == null) return NotFound();
+
+            return Ok(product);
+        }
+
+        // - UPDATE -
+        [HttpPut("{id}")] // PUT /api/productos/1
+        public IActionResult Update(int id, Producto actualizado)
+        {
+            var product = _datos.FirstOrDefault(p => p.id == id);
+            if (product == null) return NotFound();
+
+            product.Nombre = actualizado.Nombre;
+            product.Precio = actualizado.Precio;
+
+            return NoContent();
+        }
+
+        // - DELETE -
+        [HttpDelete("{id}")] // DELETE /api/productos/1
+        public IActionResult Delete(int id)
+        {
+            var product = _datos.FirstOrDefault(p => p.id == id);
+            if (product == null) return NotFound();
+
+            _datos.Remove(product);
+            return Ok("El valor se ha eliminado correctamente");
+        }
     }
-
-    // - READ - 
-    [HttpGet] // api/productos
-    public ActionResult<IEnumerable<Producto>> GetAll()
-    {
-        return Ok(_datos);
-    }
-
-    [HttpGet("{id}")] // GET /api/productos/1
-    public ActionResult<Producto> GetById(int id)
-    {
-        var product = _datos.FirstOrDefault(p => p.id == id);
-        if (product == null) return NotFound();
-
-        return Ok(product);
-    }
-
-    // - UPDATE -
-    [HttpPut("{id}")] // PUT /api/productos/1
-    public IActionResult Update(int id, Producto actualizado)
-    {
-        var product = _datos.FirstOrDefault(p => p.id == id);
-        if (product == null) return NotFound();
-
-        product.Nombre = actualizado.Nombre;
-        product.Precio = actualizado.Precio;
-
-        return NoContent();
-    }
-
-    // - DELETE -
-    [HttpDelete("{id}")] // DELETE /api/productos/1
-    public IActionResult Delete(int id)
-    {
-        var product = _datos.FirstOrDefault(p => p.id == id);
-        if (product == null) return NotFound();
-
-        _datos.Remove(product);
-        return Ok("El valor se ha eliminado correctamente");
-    }
-
 }
 
-public class Producto
-{    
-    public int id { get; set; }
 
-    public string Nombre { get; set; } = string.Empty;
-
-    public decimal Precio { get; set; }
-
-}

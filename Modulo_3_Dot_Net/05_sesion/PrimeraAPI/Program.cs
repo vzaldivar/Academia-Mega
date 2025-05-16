@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
+using PrimeraAPI.Data;
 
 // namespace PrimeraAPI
 // {
@@ -21,7 +22,10 @@ using Microsoft.AspNetCore.Routing;
 //     }
 // }
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddControllers();
+builder.Services.AddScoped<ProductoService.Service>();
+
 var app = builder.Build();
 
 app.UseHttpsRedirection();
