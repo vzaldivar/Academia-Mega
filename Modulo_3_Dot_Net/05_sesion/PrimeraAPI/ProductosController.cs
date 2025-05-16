@@ -1,75 +1,97 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq; 
-using ProductoService.Models;
+using PrimeraAPI.Models;
 using PrimeraAPI.Data;
 
 namespace PrimeraAPI.Controllers
 {
+    // api/
     [ApiController]
-    //[ApiVersion("1.0")]
-    //[Route("api/v{version:apiVersion}[controller]")] // api/productos
-    [Route("api/[controller]")] // api/productos
-
+    [Route("api/[controller]")]
     public class ProductosController : ControllerBase
     {
-        // Aqui seria la lectura de datos en BD
+        // Lectura a la BD
         private readonly ProductoService _service;
 
         public ProductosController(ProductoService service)
-        {
+        { 
             _service = service;
         }
 
-        // - CREATE -
-        [HttpPost] // POST /api/productos
-        public ActionResult<Producto> Create(Producto nuevo)
+
+        // CREATE
+
+        // POST
+        [HttpPost]
+        public ActionResult<Producto> Create(Producto newProd)
         {
+            // newProd.id = _datos.Max(p => p.id) + 1;
+            // _datos.Add(newProd);
+            // return CreatedAtAction(nameof(GetById), new { id = newProd.id }, newProd);
             return NoContent();
         }
 
-        // - READ - 
-        [HttpGet] // api/productos
-        public async Task<ActionResult> GetAll()
+        // READ
+
+        // GET /api/productos
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
         {
             var lista = await _service.GetAllAsync();
-
             return Ok(lista);
         }
 
-        [HttpGet("{id}")] // GET /api/productos/1
+        // GET /api/productos/id
+        [HttpGet("{id}")]
         public ActionResult<Producto> GetById(int id)
         {
-            var product = _datos.FirstOrDefault(p => p.id == id);
-            if (product == null) return NotFound();
+            // var product = _datos.FirstOrDefault(p => p.id == id);
 
-            return Ok(product);
-        }
+            // if (product == null)
+            //     return NotFound();
 
-        // - UPDATE -
-        [HttpPut("{id}")] // PUT /api/productos/1
-        public IActionResult Update(int id, Producto actualizado)
-        {
-            var product = _datos.FirstOrDefault(p => p.id == id);
-            if (product == null) return NotFound();
-
-            product.Nombre = actualizado.Nombre;
-            product.Precio = actualizado.Precio;
-
+            // return Ok(product);
             return NoContent();
         }
 
-        // - DELETE -
-        [HttpDelete("{id}")] // DELETE /api/productos/1
+        // UPDATE
+
+        // PUT /api/productos/id
+
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, Producto changeProduct)
+        {
+            // var product = _datos.FirstOrDefault(p => p.id == id);
+
+            // if (product == null)
+            //     return NotFound();
+
+            // product.Nombre = changeProduct.Nombre;
+            // product.Precio = changeProduct.Precio;
+
+            // return Ok(product);
+            return NoContent();
+        }
+
+        // DELETE
+
+        // DELETE /api/productos/id
+
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var product = _datos.FirstOrDefault(p => p.id == id);
-            if (product == null) return NotFound();
+            // var product = _datos.FirstOrDefault(p => p.id == id);
 
-            _datos.Remove(product);
-            return Ok("El valor se ha eliminado correctamente");
+            // if (product == null)
+            //     return NotFound();
+
+            // _datos.Remove(product);
+
+            // // return NoContent();
+            // return Ok("Eliminado correctamente.");
+            return NoContent();
         }
+
     }
 }
-
-
