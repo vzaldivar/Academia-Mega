@@ -65,8 +65,7 @@ namespace PrimeraAPI.Data
         {
             using var conn = new SqlConnection(_connectionString);
             await conn.OpenAsync();
-            using var cmd = new SqlCommand(
-                "INSERT INTO Productos (Nombre, Precio) OUTPUT INSERTED.Id VALUE (@Nombre, @Precio)", conn);
+            using var cmd = new SqlCommand("INSERT INTO Productos (Nombre, Precio) OUTPUT INSERTED.Id VALUES(@Nombre, @Precio)", conn);
             cmd.Parameters.AddWithValue("@Nombre", producto.Nombre);
             cmd.Parameters.AddWithValue("@Precio", producto.Precio);
 
