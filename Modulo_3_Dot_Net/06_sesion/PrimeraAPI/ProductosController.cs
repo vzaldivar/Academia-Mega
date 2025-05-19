@@ -13,7 +13,7 @@ namespace PrimeraAPI.Controllers
 
     public class ProductosController : ControllerBase
     {
-        // Aquí sería la dectura de datos en BD
+        // Aquí sería la lectura de datos en BD
         private readonly ProductoService _service;
 
         public ProductosController(ProductoService service)

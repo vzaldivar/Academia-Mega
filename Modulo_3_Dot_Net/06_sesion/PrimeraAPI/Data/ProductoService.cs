@@ -66,8 +66,7 @@ namespace PrimeraAPI.Data
             using var conn = new SqlConnection(_connectionString);
             await conn.OpenAsync();
             using var cmd = new SqlCommand(
-                "INSERT INTO Productos (Nombre, Precio) OUTPUT INSERTED.Id VALUE (@Nombre, @Precio)", conn
-            );
+                "INSERT INTO Productos (Nombre, Precio) OUTPUT INSERTED.Id VALUE (@Nombre, @Precio)", conn);
             cmd.Parameters.AddWithValue("@Nombre", producto.Nombre);
             cmd.Parameters.AddWithValue("@Precio", producto.Precio);
 
@@ -82,8 +81,7 @@ namespace PrimeraAPI.Data
             using var conn = new SqlConnection(_connectionString);
             await conn.OpenAsync();
             using var cmd = new SqlCommand(
-                "UPDATE Productos SET Nombre = @Nombre, Precio = @Precio WHERE Id = @Id ", conn
-            );
+                "UPDATE Productos SET Nombre = @Nombre, Precio = @Precio WHERE Id = @Id ", conn);
             cmd.Parameters.AddWithValue("@Nombre", product.Nombre);
             cmd.Parameters.AddWithValue("@Precio", product.Precio);
             cmd.Parameters.AddWithValue("@Id", product.Id);
