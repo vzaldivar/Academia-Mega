@@ -1,0 +1,7 @@
+C:\curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net5.0\PrimeraAPI.csproj.AssemblyReference.cache
+C:\curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net5.0\PrimeraAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net5.0\PrimeraAPI.AssemblyInfoInputs.cache
+C:\curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net5.0\PrimeraAPI.AssemblyInfo.cs
+C:\curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net5.0\PrimeraAPI.csproj.CoreCompileInputs.cache
+C:\curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net5.0\PrimeraAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\curso\Academia-Mega\Modulo_3_Dot_Net\03_sesion\PrimeraAPI\obj\Debug\net5.0\PrimeraAPI.MvcApplicationPartsAssemblyInfo.cache
