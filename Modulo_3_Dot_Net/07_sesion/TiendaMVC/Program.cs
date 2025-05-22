@@ -1,7 +1,14 @@
+using TiendaMVC.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddHttpClient<IProductoApiService, ProductoApiService>(client =>
+{
+    client.BaseAddress = new Uri("http://localhost:5073");
+});
 
 var app = builder.Build();
 

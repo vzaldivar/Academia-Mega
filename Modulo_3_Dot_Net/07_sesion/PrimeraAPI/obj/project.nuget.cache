@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FFWLVMODhfs=",
+  "dgSpecHash": "2XPdDZJUeBA=",
   "success": true,
-  "projectFilePath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\06_sesion\\PrimeraAPI\\PrimeraAPI.csproj",
+  "projectFilePath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\07_sesion\\PrimeraAPI\\PrimeraAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
