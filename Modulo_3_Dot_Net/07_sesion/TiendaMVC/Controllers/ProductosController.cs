@@ -9,7 +9,8 @@ namespace TiendaMVC.Controllers
         private static readonly List<Producto> _productos = new()
         {
             new Producto { Id = 1, Nombre = "Xiaomi 15 Ultra", Precio = 33000.00m},
-            new Producto { Id = 2, Nombre = "HONOR Magic 7 Pro", Precio = 29000.00m}
+            new Producto { Id = 2, Nombre = "HONOR Magic 7 Pro", Precio = 29000.00m},
+            new Producto { Id = 3, Nombre = "iPhone 16 Pro", Precio = 25600.00m}
         };
 
         public IActionResult Index()
