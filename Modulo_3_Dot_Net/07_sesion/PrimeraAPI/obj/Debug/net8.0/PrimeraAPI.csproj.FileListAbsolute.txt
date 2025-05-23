@@ -225,6 +225,7 @@ C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\As
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
@@ -300,4 +301,3 @@ C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\obj\Debug\net8.0\re
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.pdb
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\obj\Debug\net8.0\PrimeraAPI.genruntimeconfig.cache
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\obj\Debug\net8.0\ref\PrimeraAPI.dll
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
