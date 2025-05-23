@@ -4,7 +4,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System.Text;
 using PrimeraAPI.Data;
-using Microsoft.IdentityModel.Tokens.Jwt;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace PrimeraAPI.Controllers
 {
@@ -25,7 +25,7 @@ namespace PrimeraAPI.Controllers
         public async Task<IActionResult> Register(UserLogin user)
         {
             var ok = await _usuarioService.RegistroAsync(user.Username, user.Password);
-            if (!ok) return Conflict(new { message = "El usuario ya existe"})
+            if (!ok) return Conflict(new { message = "El usuario ya existe"});
             var token = GenerateToken(user.Username);
             return Ok(new { token });
         }
@@ -35,7 +35,7 @@ namespace PrimeraAPI.Controllers
             var key = Encoding.ASCII.GetBytes(_config["JwtKey"]!);
             var claims = new[] {
                 new Claim(ClaimTypes.Name, username)
-            }:
+            };
 
             var credentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256);
 

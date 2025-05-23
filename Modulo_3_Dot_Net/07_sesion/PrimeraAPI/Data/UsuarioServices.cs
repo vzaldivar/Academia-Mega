@@ -10,7 +10,7 @@ namespace PrimeraAPI.Data
     {
         private readonly string _connectionString;
 
-        public class UsuarioService(IConfiguration config)
+        public UsuarioService(IConfiguration config)
         {
             _connectionString = config.GetConnectionString( "TiendaDB" )!;
         }    
@@ -29,7 +29,7 @@ namespace PrimeraAPI.Data
             var hash = Hash(password);
             using var connection = new SqlConnection( _connectionString );
             await connection.OpenAsync();
-            var cmd new SqlCommand(
+            var cmd = new SqlCommand(
                 "INSERT INTO Usuarios (NombreUsario, PasswordHash) VALUES (@user, @pass)", connection
             );
             cmd.Parameters.AddWithValue( "@user", username );
