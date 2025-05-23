@@ -6,9 +6,9 @@ namespace TiendaMVC.Services
     {
         Task<List<Producto>> GetAllAsync();
 
-        Task<Producto> GetByIdAsync(int id);
+        Task<Producto?> GetByIdAsync(int id);
 
-        Task<Producto> CreateAsync(Producto p);
+        Task<Producto?> CreateAsync(Producto p);
 
         Task<bool> UpdateAsync(int id, Producto p);
 

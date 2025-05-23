@@ -1,4 +1,4 @@
-@PrimeraAPI_HostAddress = "http://localhost:5001"
+@PrimeraAPI_HostAddress = "http://localhost:5073"
 
 GET {{PrimeraAPI_HostAddress}}/watherforecast/
 Accept: application/json 
