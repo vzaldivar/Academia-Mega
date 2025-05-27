@@ -1,14 +1,25 @@
 using TiendaMVC.Services;
+using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddHttpContextAccessor();
 
-builder.Services.AddHttpClient<IProductoApiService, ProductoApiService>(client =>
+// Habilitamos las sesiones.
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+builder.Services.AddHttpClient<ApiClient>(client =>
 {
     client.BaseAddress = new Uri("http://localhost:5073");
 });
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
@@ -24,7 +35,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthorization();
 
 app.MapControllerRoute(

@@ -1,8 +1,7 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Routing;
 using PrimeraAPI.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer; 
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +10,27 @@ builder.Services.AddScoped<ProductoService>();
 builder.Services.AddScoped<UsuarioService>();
 
 // middleware
+var keyString = builder.Configuration["JwtKey"];
+if (string.IsNullOrWhiteSpace(keyString))
+    throw new InvalidOperationException("Falta configurar el jwtKey en appsettings");
+
+var key = Encoding.ASCII.GetBytes(keyString);
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(opts =>
+    {
+        opts.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key)
+        };
+    });
 
 var app = builder.Build();
 
-app.UseHttpsRedirection();
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();

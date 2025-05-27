@@ -225,6 +225,7 @@ C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\As
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\07_sesion\PrimeraAPI\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll

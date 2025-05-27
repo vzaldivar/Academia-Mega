@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S+R2mDg7CRk=",
+  "dgSpecHash": "5Cn1Cojp0YY=",
   "success": true,
   "projectFilePath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\07_sesion\\PrimeraAPI\\PrimeraAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\7.1.0\\asp.versioning.mvc.apiexplorer.7.1.0.nupkg.sha512",
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\vzaldivarg\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.16\\microsoft.aspnetcore.openapi.8.0.16.nupkg.sha512",
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
