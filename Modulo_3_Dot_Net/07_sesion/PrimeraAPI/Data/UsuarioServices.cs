@@ -33,7 +33,7 @@ namespace PrimeraAPI.Data
                 "INSERT INTO Usuarios (NombreUsario, PasswordHash) VALUES (@user, @pass)", connection
             );
             cmd.Parameters.AddWithValue( "@user", username );
-            cmd.Parameters.AddWithValue( "@pass", password );
+            cmd.Parameters.AddWithValue( "@pass", hash );
 
             try
             {

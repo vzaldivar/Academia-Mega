@@ -1,4 +1,5 @@
 using System.Net.Http.Json;
+using System.Net.Http.Headers;
 using TiendaMVC.Models;
 
 namespace TiendaMVC.Services
@@ -6,7 +7,12 @@ namespace TiendaMVC.Services
     public class ProductoApiService : IProductoApiService
     {
         private readonly HttpClient _http;
-        public ProductoApiService(HttpClient http) => _http = http;
+        public readonly IHttpContextAccessor _context;
+        public ProductoApiService(HttpClient http, IHttpContextAccessor context)
+        {
+            _http = http;
+            _context = context;
+        }
 
         public async Task<List<Producto>> GetAllAsync() =>
             await _http.GetFromJsonAsync<List<Producto>>("api/productos") ?? new List<Producto>();

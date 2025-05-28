@@ -25,7 +25,7 @@ namespace PrimeraAPI.Controllers
         public async Task<IActionResult> Register(UserLogin user)
         {
             var ok = await _usuarioService.RegistroAsync(user.Username, user.Password);
-            if (!ok) return Conflict(new { message = "El usuario ya existe"});
+            if (!ok) return Conflict(new { message = "El usuario ya existe" });
             var token = GenerateToken(user.Username);
             return Ok(new { token });
         }
@@ -33,13 +33,13 @@ namespace PrimeraAPI.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserLogin user)
         {
-           var valid = await _usuarioService.ValidateCredentialsAsync(user.Username, user.Password);
-           if (!valid) return Unauthorized(new { message = "Acceso no autorizado!!! Credenciales no validas" });
-           var token = GenerateToken(user.Username);
-           return Ok(new { token });
+            var valid = await _usuarioService.ValidateCredentialsAsync(user.Username, user.Password);
+            if (!valid) return Unauthorized(new { message = "Acceso no autorizado!!! Credenciales no validas" });
+            var token = GenerateToken(user.Username);
+            return Ok(new { token });
         }
 
-        public string GenerateToken(string username)
+        private string GenerateToken(string username)
         {
             var key = Encoding.ASCII.GetBytes(_config["JwtKey"]!);
             var claims = new[] {
@@ -56,7 +56,7 @@ namespace PrimeraAPI.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(jwt);
         }
-        
+
     }
 
     public class UserLogin
