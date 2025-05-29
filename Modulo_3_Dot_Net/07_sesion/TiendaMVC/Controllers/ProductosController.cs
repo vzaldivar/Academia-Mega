@@ -16,7 +16,7 @@ namespace TiendaMVC.Controllers
             var products = await _api.GetProductosAsync();
             return View(products);
         }
-/*
+
         // GET /Productos/Details/5
         public async Task<IActionResult> Details(int id)
         {
@@ -24,7 +24,7 @@ namespace TiendaMVC.Controllers
             if (product == null) return NotFound();
             return View(product);
         }
-
+/*
         // GET Productos/Create
         public IActionResult Create() => View();
 

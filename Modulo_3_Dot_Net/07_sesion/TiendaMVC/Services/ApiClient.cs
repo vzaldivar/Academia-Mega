@@ -19,8 +19,13 @@ namespace TiendaMVC.Services
                 _http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
         }
 
+        // Listado de productos
         public Task<List<Producto>> GetProductosAsync()
             => _http.GetFromJsonAsync<List<Producto>>("api/productos")!;
+
+        // Detalle del producto
+        public Task<Producto> GetByIdAsync(int id)
+            => _http.GetFromJsonAsync<Producto>($"api/productos/{id}")!;
 
         // Autenticacion
         public async Task<bool> LoginAsync(User user)
