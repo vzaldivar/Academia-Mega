@@ -1,0 +1,7 @@
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerClient\obj\Debug\net8.0\TaskManagerClient.csproj.AssemblyReference.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerClient\obj\Debug\net8.0\TaskManagerClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerClient\obj\Debug\net8.0\TaskManagerClient.AssemblyInfoInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerClient\obj\Debug\net8.0\TaskManagerClient.AssemblyInfo.cs
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerClient\obj\Debug\net8.0\TaskManagerClient.csproj.CoreCompileInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerClient\obj\Debug\net8.0\TaskManagerClient.MvcApplicationPartsAssemblyInfo.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerClient\obj\Debug\net8.0\TaskManagerClient.sourcelink.json

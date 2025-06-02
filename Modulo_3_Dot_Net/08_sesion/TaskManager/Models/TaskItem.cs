@@ -1,6 +1,6 @@
-namespace TaskManager.Models;
+namespace TaskManager.Models
 {
-    public class TaskItem = BaseClass
+    public class TaskItem : BaseClass
     {
         public required string Title { get; set; }
 
