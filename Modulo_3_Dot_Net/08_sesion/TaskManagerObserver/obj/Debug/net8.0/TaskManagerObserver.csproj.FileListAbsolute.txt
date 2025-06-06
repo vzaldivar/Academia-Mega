@@ -1,0 +1,5 @@
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerObserver\obj\Debug\net8.0\TaskManagerObserver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerObserver\obj\Debug\net8.0\TaskManagerObserver.AssemblyInfoInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerObserver\obj\Debug\net8.0\TaskManagerObserver.AssemblyInfo.cs
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerObserver\obj\Debug\net8.0\TaskManagerObserver.csproj.CoreCompileInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManagerObserver\obj\Debug\net8.0\TaskManagerObserver.sourcelink.json
