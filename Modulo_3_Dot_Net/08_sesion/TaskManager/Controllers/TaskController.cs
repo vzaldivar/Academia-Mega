@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using TaskManager.Models;
+using TaskManager.Shared.Domain;
 using TaskManager.Repositories;
 using TaskManager.Services;
 

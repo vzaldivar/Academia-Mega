@@ -10,7 +10,7 @@ public class TaskItem
 
     public string? Description { get; init; }
 
-    public bool IsDone { get; private et; }    
+    public bool IsDone { get; private set; }    
 
     public void Complete() => IsDone = true;
 }

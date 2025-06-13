@@ -1,6 +1,6 @@
 // Este nos va a servir para el DTO del backend
 
-namespace TaskManager.Domain;
+namespace TaskManager.Shared.Domain;
 
 public class TaskItem 
 {
@@ -10,7 +10,7 @@ public class TaskItem
 
     public string? Description { get; init; }
 
-    public bool IsDone { get; private et; }    
+    public bool IsDone { get; private set; }    
 
     public void Complete() => IsDone = true;
 }

@@ -30,7 +30,7 @@ public class TaskRepository
 
     public void Delete(Guid id)
     {
-        var task = _store.FirstOrDefault(t => t.id == task.id)
+        var task = _store.FirstOrDefault(t => t.id == id);
         if (task is null)
             return;
 

@@ -1,7 +1,7 @@
 using TaskManager.Repositories;
 using TaskManager.Services;
-using Microsoft.AspNetCore.Cors;
 using TaskManager.Shared.PubSub;
+using TaskManager.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 

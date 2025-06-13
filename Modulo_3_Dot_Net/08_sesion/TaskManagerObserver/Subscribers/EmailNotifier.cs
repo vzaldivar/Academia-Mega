@@ -11,7 +11,7 @@ namespace Subscribers
 
         public void OnNext(TaskEvent taskEvent) 
         {
-            if (TaskEvent.EventName == "Created")
+            if (taskEvent.EventName == "Created")
                 Console.WriteLine($"[EMAIL] Nueva tarea: {taskEvent.Payload.Title}");
         }
 

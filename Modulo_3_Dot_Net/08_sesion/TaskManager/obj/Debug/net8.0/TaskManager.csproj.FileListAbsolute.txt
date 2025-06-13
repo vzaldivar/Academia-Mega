@@ -32,3 +32,13 @@ C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\obj\Debug\net8.0\r
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\obj\Debug\net8.0\TaskManager.pdb
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\obj\Debug\net8.0\TaskManager.genruntimeconfig.cache
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\obj\Debug\net8.0\ref\TaskManager.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\TaskManager.Shared.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager\bin\Debug\net8.0\TaskManager.Shared.pdb

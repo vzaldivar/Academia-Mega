@@ -1,0 +1,12 @@
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\bin\Debug\net8.0\TaskManager.Shared.deps.json
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\bin\Debug\net8.0\TaskManager.Shared.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\bin\Debug\net8.0\TaskManager.Shared.pdb
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\TaskManager.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\TaskManager.Shared.AssemblyInfoInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\TaskManager.Shared.AssemblyInfo.cs
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\TaskManager.Shared.csproj.CoreCompileInputs.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\TaskManager.Shared.sourcelink.json
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\TaskManager.Shared.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\refint\TaskManager.Shared.dll
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\TaskManager.Shared.pdb
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\08_sesion\TaskManager.Shared\obj\Debug\net8.0\ref\TaskManager.Shared.dll

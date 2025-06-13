@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNEtCore.SignalR.Client;
+﻿using Microsoft.AspNetCore.SignalR.Client;
 using TaskManager.Shared.Events;
 
 var connection = new HubConnectionBuilder()
@@ -10,6 +10,6 @@ connection.On<TaskEvent>("TaskEvent", ev =>
     Console.WriteLine($"{ev.EventName}: {ev.Payload.Title}");
 });
 
-await connection.StarrAsync();
+await connection.StartAsync();
 Console.WriteLine("Observando eventos...");
 await Task.Delay(Timeout.Infinite);
