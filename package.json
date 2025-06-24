@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vzaldivarg/Academia-Mega/issues"
   },
-  "homepage": "https://github.com/vzaldivarg/Academia-Mega#readme"
+  "homepage": "https://github.com/vzaldivarg/Academia-Mega#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
