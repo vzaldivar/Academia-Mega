@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\ChatServer.csproj": {}
+    "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\ChatServer.csproj": {}
   },
   "projects": {
-    "C:\\curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\ChatServer.csproj": {
+    "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\ChatServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\ChatServer.csproj",
+        "projectUniqueName": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\ChatServer.csproj",
         "projectName": "ChatServer",
-        "projectPath": "C:\\curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\ChatServer.csproj",
+        "projectPath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\ChatServer.csproj",
         "packagesPath": "C:\\Users\\vzaldivarg\\.nuget\\packages\\",
-        "outputPath": "C:\\curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\obj\\",
+        "outputPath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

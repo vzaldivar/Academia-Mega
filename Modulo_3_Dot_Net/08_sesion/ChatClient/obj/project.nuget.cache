@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JC3R8QgoIHA=",
+  "dgSpecHash": "ROyhBFOz7Qo=",
   "success": true,
-  "projectFilePath": "C:\\curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatClient\\ChatClient.csproj",
+  "projectFilePath": "C:\\Curso\\Academia-Mega\\Modulo_3_Dot_Net\\08_sesion\\ChatClient\\ChatClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\google.protobuf\\3.31.1\\google.protobuf.3.31.1.nupkg.sha512",
     "C:\\Users\\vzaldivarg\\.nuget\\packages\\grpc.core.api\\2.71.0\\grpc.core.api.2.71.0.nupkg.sha512",
