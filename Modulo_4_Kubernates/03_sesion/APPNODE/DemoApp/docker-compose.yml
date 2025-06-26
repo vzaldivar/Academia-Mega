@@ -7,7 +7,7 @@ services:
       - db
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings_DefaultConnection=Server=LAPTOP-N3MMEJIH\\MYSERVER;Database=Starbucks;User Id=josejesus;Password=5f6g7h8j9k0l.
+      - ConnectionStrings_DefaultConnection=data source=MCABCORTI543;initial catalog=Starbucks;trusted_connection=true
   db:
     image: "mcr.microsoft.com/mssql/server:2019-latest"
     environment:
