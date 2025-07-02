@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vzaldivarg/Academia-Mega.git"
+    "url": "git+https://github.com/vzaldivar/Academia-Mega.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vzaldivarg/Academia-Mega/issues"
+    "url": "https://github.com/vzaldivar/Academia-Mega/issues"
   },
-  "homepage": "https://github.com/vzaldivarg/Academia-Mega#readme",
+  "homepage": "https://github.com/vzaldivar/Academia-Mega#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.6.0",
