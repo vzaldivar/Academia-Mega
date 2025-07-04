@@ -1,0 +1,20 @@
+services:
+  api:
+    build: .
+    image: minimalapi:latest
+    networks:
+      - appnet
+
+  nginx:
+    build:
+      context: ./nginx
+      image: custom-nginx:latest
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    networks:
+      - appnet
+
+    
+
