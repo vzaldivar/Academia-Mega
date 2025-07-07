@@ -27,6 +27,7 @@ C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\bin\Debug\net5.0\Hel
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\bin\Debug\net5.0\HelloWord.runtimeconfig.json
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\bin\Debug\net5.0\HelloWord.runtimeconfig.dev.json
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\bin\Debug\net5.0\HelloWord.dll
-C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\bin\Debug\net5.0\ref\HelloWord.dll
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\bin\Debug\net5.0\HelloWord.pdb
 C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\obj\Debug\net5.0\HelloWord.genruntimeconfig.cache
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\obj\Debug\net5.0\HelloWord.sourcelink.json
+C:\Curso\Academia-Mega\Modulo_3_Dot_Net\01_sesion\HelloWord\obj\Debug\net5.0\refint\HelloWord.dll
